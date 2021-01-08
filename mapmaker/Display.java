@@ -88,6 +88,7 @@ public class Display extends JPanel implements MouseMotionListener, MouseListene
 			}
 		}
 		previousTileChanged = null;
+		enlightenmentCenters = new LinkedList<EnlightenmentCenter>();
 		repaint();
 	}
 
